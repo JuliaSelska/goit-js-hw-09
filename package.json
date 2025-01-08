@@ -4,12 +4,12 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "cssnano": "npx postcss src/css/styles.css > dist/css/styles.min.css",
     "dev": "vite",
     "build": "vite build --base=/vanilla-app-template/",
     "preview": "vite preview"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.20",
     "glob": "^11.0.0",
     "postcss": "^8.4.49",
     "postcss-sort-media-queries": "^5.2.0",
